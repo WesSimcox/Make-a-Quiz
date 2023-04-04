@@ -21,12 +21,12 @@ WHEN the game is over
 THEN I can save my initials and score
 ```
 ## Description
-This project is a quiz created on the subject of JavaScript. In this quiz the player will be asked several questions regarding JavaScript. When the begin button is pressed the timer starts and the first question appears. Questions do not appear in the same order everytime an attempt is made. Upon finishing the quiz or running out of time the user will be asked to save their high score and their initials. This information will be saved in a local storage that the user can look back on. If desired the user may use the clear high scores button to delete their recently save high scores for a blank slate.
+This project is a quiz created on the subject of JavaScript. In this quiz the player will be asked several questions regarding JavaScript. When the begin button is pressed the timer starts and the first question appears. Questions do not appear in the same order everytime an attempt is made. Each correct answer will reward the user with 5 points for a maximum of 25 points, however every incorrect answer will deduct 2 seconds from the time. Upon finishing the quiz or running out of time the user will be asked to save their high score and their initials. This information will be saved in a local storage that the user can look back on. If desired the user may use the clear high scores button to delete their recently save high scores for a blank slate.
 ## Authors
 Wes Simcox
 ## Deployment
 
-
+[live](https://wessimcox.github.io/Make-a-Quiz/)
 
 ## Repository
 
