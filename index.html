@@ -5,23 +5,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>JavaScript Quiz</title>
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.13/dist/css/uikit.min.css"/>
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.13/dist/js/uikit.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.13/dist/js/uikit-icons.min.js"></script>
     </head>
 
-    <body> 
+    <body class="uk-background-muted"> 
 
         <header>
-            <h4 id="view-high-scores">View High Scores</h4> 
+            <h4 class="uk-heading-line" id="view-high-scores"><span>View High Scores</span></h4> 
             <h4 class="timer">Time: <span id="timer"></span></h4>
         </header>
 
         <div id="starter-container" class="show">
             <div class="container start">
-                <h1>JavaScript Quiz game</h1>  
-                <p>Attempt to answer the following questions relating to JavaScript! Correct answers will grant you 5 points, however incorrect answers will reduce the remaining time by 2 seconds.</p>
-                <button class="btn startend" id="start-game">Begin</button>
+                <h1 class="uk-heading-divider">JavaScript Quiz game</h1>  
+                <p class="uk-text-lead">Attempt to answer the following questions relating to JavaScript! Correct answers will grant you 5 points, however incorrect answers will reduce the remaining time by 2 seconds.</p>
+                <button class="btn startend uk-button uk-button-text" id="start-game">Begin</button>
             </div>    
         </div>
 
@@ -40,7 +41,7 @@
             <form id="initials-form" class="initials">
               <p> Enter Initials:
                 <input type="text" name="initials" id="initials" class="text-input" />
-                <button class="btn startend" id="sumbit-score" type="submit">Submit</button> </p>
+                <button class="btn startend uk-button uk-button-text" id="sumbit-score" type="submit">Submit</button> </p>
               </form>
             </div>
         </div>
@@ -50,16 +51,16 @@
             <h1 class="high-score">High Scores</h1>
             <ol id="high-score-list" class="score-list"></ol>
         <div>
-            <button class="btn" id="go-back">Go back</button>
-            <button class="btn" id="clear-high-scores">Clear high scores</button>
+            <button class="btn uk-button uk-button-text" id="go-back">Go back</button>
+            <button class="btn uk-button uk-button-text" id="clear-high-scores">Clear high scores</button>
         </div>
         </div>
     </div>
 
-    <div class="hide" id="correct">
+    <div class="hide uk-heading-line uk-text-center" id="correct">
         <h2>Correct</h2>
     </div>
-    <div class="hide" id="wrong">
+    <div class="hide uk-heading-line uk-text-center" id="wrong">
         <h2>Incorrect</h2>
     </div>
 
