@@ -38,3 +38,5 @@ Wes Simcox
 
 ## References
 
+[w3schools.JavaScriptQuiz](https://www.w3schools.com/quiztest/quiztest.asp?qtest=JS)
+[w3schools.JavaScriptQuizResults](https://www.w3schools.com/quiztest/result.asp)
